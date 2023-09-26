@@ -7,6 +7,19 @@ main {
   display: flex;
 }
 
+/* Hero Section Text */
 p {
   font-family: 'Roboto', sans-serif;
+  color: rgb(111, 0, 255);
+}
+
+/* Hero Section Header */
+header {
+  background-image: url(https://fastly.picsum.photos/id/102/4320/3240.jpg?hmac=ico2KysoswVG8E8r550V_afIWN963F6ygTVrqHeHeRc);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  display: flex;
+  justify-content: center;
 }
