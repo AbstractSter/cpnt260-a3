@@ -1,0 +1,12 @@
+body {
+  font-size: 120px;
+  margin: 0;
+}
+
+main {
+  display: flex;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+}
