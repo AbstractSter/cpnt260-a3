@@ -21,11 +21,9 @@ p {
   font-size: 2vh;
   color: rgb(229, 226, 224);
 
-  display: flex;
   justify-content: center;
 
   padding-top: 1vh;
-
 }
 
 .cta {
@@ -50,5 +48,6 @@ header {
   height: 100vh;
 
   display: flex;
+  flex-direction: column;
   justify-content: center;
 }
