@@ -21,7 +21,8 @@ p {
   font-size: 2vh;
   color: rgb(229, 226, 224);
 
-  margin: 0;
+  display: flex;
+  justify-content: center;
 
   padding-top: 1vh;
 
