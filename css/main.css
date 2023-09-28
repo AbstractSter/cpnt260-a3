@@ -1,7 +1,6 @@
 header {
   /* Hero Section Header */
   background-image: url("https://fastly.picsum.photos/id/141/2048/1365.jpg?hmac=xcZmN-VINP95YwmI3AXCTIxfzd61fhaczQmodKQjLbY");;
-  background-size: stretch;
   background-repeat: no-repeat;
   background-position: center;
 
@@ -24,22 +23,11 @@ h1 {
   text-shadow: 5px 2px 10px rgb(255, 115, 0);
 }
 
-article.cta {
-  /* Call to Action Button */
-  margin: auto;
-  margin-top: 0;
-  padding: 1rem;
-  max-width: 40ch;
-  text-align: center;
-
-  border-radius: 1rem;
-  background-color: hsl(205, 53%, 26%);
-}
-
 h2 {
   /* CTA Text */
   color: rgb(238, 175, 30);
-  font-size: 25px;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
   
   margin: 0;
   
@@ -47,8 +35,29 @@ h2 {
 }
 
 p {
+  font-family: 'Roboto', sans-serif;
   font-size: 20px;
   margin: auto;
+}
+
+
+article.cta {
+  /* Call to Action Button */
+  margin: auto;
+  margin-top: 0;
+  padding: 1rem;
+  max-width: 40ch;
+  text-align: center;
+  color: #d57427;
+  
+  border-radius: 1rem;
+  background-color: hsl(205, 53%, 26%);
+}
+
+button {
+  font-family: 'Roboto', sans-serif;
+  border: 0;
+  border-radius: 10px;
 }
 
 button:hover {
@@ -58,6 +67,7 @@ button:hover {
 
 body {
   margin: auto;
+  font-size: 15px;
 }
 
 main {
