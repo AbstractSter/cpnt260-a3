@@ -48,14 +48,18 @@ h2 {
 
 p {
   font-size: 20px;
-  margin: 0;
+  margin: auto;
 }
 
-.button {
-  font-size: .75px;
+button:hover {
+  background-color: rgb(68, 244, 9);
+  color: rgb(9, 0, 0);
 }
 
-nav a:hover {
-  background-color: rgb(77, 79, 47);
-  color: rgb(241, 14, 14);
+body {
+  margin: auto;
+}
+
+main {
+  margin: auto
 }
