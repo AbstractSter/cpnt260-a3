@@ -37,6 +37,13 @@ h2 {
   margin: 0;
 }
 
+h3 {
+  /* Content  */
+  font-family: 'Roboto', sans-serif;
+  font-size: clamp(10px, 10vw, 50px);
+  padding: 2rem;
+}
+
 article.cta {
   /* Call to Action Button */
   margin: 2rem;
@@ -59,6 +66,7 @@ button:hover {
 p {
   /* Paragraph text below hero section */
   font-family: 'Roboto', sans-serif;
-  font-size: 20px;
+  font-size: clamp(5px, 10vw, 30px);
   margin: auto;
+  padding: 2rem;
 }
