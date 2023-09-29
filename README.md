@@ -3,8 +3,7 @@ Hero Section with Call to Action
 
 ### Author: Sterling Smith
 
-### Github Pages Site
-- 
+#### [Github Pages Site](https://abstractster.github.io/cpnt260-a3/)
 
 ### Above & Beyond
 - [Github Project Board](https://github.com/users/AbstractSter/projects/2/views/1)
